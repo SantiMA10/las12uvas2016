@@ -13,6 +13,7 @@ import xyz.santima.las12uvas.problems.P1_CociendoHuevos;
 import xyz.santima.las12uvas.problems.P2_ContandoEnLaArena;
 import xyz.santima.las12uvas.problems.P3_La13_14;
 import xyz.santima.las12uvas.problems.P4_AburrimientoEnLasSobremesas;
+import xyz.santima.las12uvas.problems.P5_LaFarsanteDeMaryPoppins;
 
 public class ProblemsTest {
 	
@@ -49,6 +50,13 @@ public class ProblemsTest {
 		System.setIn(new ByteArrayInputStream("3\n1\n0".getBytes()));
 		P4_AburrimientoEnLasSobremesas.main(null);
 		assertEquals("18\n3\n", out.toString());
+	}
+	
+	@Test
+	public void test_p5() throws Exception {
+		System.setIn(new ByteArrayInputStream("2\nsupercalifragilisticoespialidoso\nMary".getBytes()));
+		P5_LaFarsanteDeMaryPoppins.main(null);
+		assertEquals("osodilaipseocitsiligarfilacrepus\nYram\n", out.toString());
 	}
 
 }

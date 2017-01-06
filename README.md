@@ -8,3 +8,4 @@ Este año he participado en el concurso online de la Facultad de Informática de
 * [Aburrimiento en las sobremesas](https://www.aceptaelreto.com/problem/statement.php?id=371)
 * [La farsante de Mary Poppins](https://www.aceptaelreto.com/problem/statement.php?id=372)
 * [Cubos visibles](https://www.aceptaelreto.com/problem/statement.php?id=373)
+* [Criogenización](https://www.aceptaelreto.com/problem/statement.php?id=374)
